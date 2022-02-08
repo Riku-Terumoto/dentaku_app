@@ -1,0 +1,23 @@
+$oneHundred: 100%;
+$center: center; 
+$position: relative,absolute,fixed;
+
+form{
+    table{
+        width: $oneHundred / 5;
+        height: $oneHundred / 2;
+        position: nth($position,2);
+        top: $oneHundred / 2;
+        left: $oneHundred / 2;
+        transform: translate(-50%, -50%);
+        tr{
+            td{
+                input{
+                    width: $oneHundred;
+                    height: $oneHundred;
+                }
+            }
+        }
+    }
+}
+

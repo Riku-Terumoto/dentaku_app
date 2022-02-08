@@ -8,5 +8,42 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    <form name="dentaku">
+        <table border="1">
+            <tr>
+                <td colspan="4"><input type="text" value="0" class="display" disabled></td>
+            </tr>
+            <tr align="center">
+                <td ><input type="button" value="C" id="clear-btn"></td>
+                <td ><input type="button" value="AC" id="allclear-btn"></td>
+                <td ><input type="button" value="BS" id="backspace-btn"></td>
+                <td><input type="button" value="÷" class="js-num-btn cal" data-index-id = "/"></td>
+            </tr>
+            <tr align="center">
+                <td><input type="button" value="7" class="js-num-btn one_nine" data-index-id = 7></td>
+                <td><input type="button" value="8" class="js-num-btn one_nine" data-index-id = 8></td>
+                <td><input type="button" value="9" class="js-num-btn one_nine" data-index-id = 9></td>
+                <td><input type="button" value="x" class="js-num-btn cal" data-index-id = "*"></td>
+            </tr>
+            <tr align="center">
+                <td><input type="button" value="4" class="js-num-btn one_nine" data-index-id = 4></td>
+                <td><input type="button" value="5" class="js-num-btn one_nine" data-index-id = 5></td>
+                <td><input type="button" value="6" class="js-num-btn one_nine" data-index-id = 6></td>
+                <td><input type="button" value="-" class="js-num-btn cal" data-index-id = "-"></td>
+            </tr>
+            <tr align="center">
+                <td><input type="button" value="1" class="js-num-btn one_nine" data-index-id = 1></td>
+                <td><input type="button" value="2" class="js-num-btn one_nine" data-index-id = 2></td>
+                <td><input type="button" value="3" class="js-num-btn one_nine" data-index-id = 3></td>
+                <td><input type="button" value="+" class="js-num-btn cal" data-index-id = "+"></td>
+            </tr>
+            <tr align="center">
+                <td colspan="2"><input type="button" value="0" id="zero" class="js-num-btn" data-index-id = 0></td>
+                <td><input type="button" value="." id="point" class="js-num-btn" data-index-id = .></td>
+                <td><input type="button" value="=" id="equal-btn"></td>
+            </tr>
+        </table>
+    </form>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
